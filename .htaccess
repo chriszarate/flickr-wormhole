@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+
+RewriteEngine On
+
+RewriteBase /photos/
+
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^([^/]+)$ $1/ [R=301]
+
+RewriteRule ^([^/]+)/(([0-9]+)\.html)?$ flickr_set.php?photo_set=$1&photo_index=$3 [L,QSA]
