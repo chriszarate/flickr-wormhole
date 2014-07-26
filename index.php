@@ -2,7 +2,7 @@
 
 /*
 	Flickr Wormhole - Home
-	http://chris.zarate.org/flickr-set
+	https://github.com/chriszarate/flickr-wormhole
 */
 
 

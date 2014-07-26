@@ -2,8 +2,11 @@
 
 /*
 	Flickr Wormhole - Configuration
-	http://chris.zarate.org/flickr-set
+	https://github.com/chriszarate/flickr-wormhole
 */
+
+
+/* IMPORTANT: Copy this file to `flickr_config.php` and edit. */
 
 
 #	API values:

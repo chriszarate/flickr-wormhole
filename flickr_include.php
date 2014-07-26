@@ -2,7 +2,7 @@
 
 /*
 	Flickr Wormhole - Functions
-	http://chris.zarate.org/flickr-set
+	https://github.com/chriszarate/flickr-wormhole
 */
 
 
@@ -30,10 +30,10 @@
 
 function ConditionalGet($file)
 
-	{ 
+	{
 
 		/*
-			Use timestamp to determine if we need to regenerate 
+			Use timestamp to determine if we need to regenerate
 			the page or if we can send a 'Not Modified' header.
 		*/
 
