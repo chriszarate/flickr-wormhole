@@ -121,6 +121,10 @@ function FlickrCall($rest_params, $api_sig, $cache_file, $return_result)
 	{
 
 
+	#	Get config values:
+		global $cfg_flickr_api_endpoint;
+
+
 	#	If caching is requested, check cache first:
 
 		if ( $cache_file && is_file($cache_file) && (time() - filemtime($cache_file)) < 86400 ):
@@ -130,7 +134,7 @@ function FlickrCall($rest_params, $api_sig, $cache_file, $return_result)
 
 	#	Make API call:
 
-		$rest_url = 'http://api.flickr.com/services/rest/?';
+		$rest_url = $cfg_flickr_api_endpoint . '/rest/?';
 
 
 		if ( $api_sig ):

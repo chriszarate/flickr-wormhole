@@ -27,6 +27,10 @@
 	$home_link = '/';
 
 
+#	API endpoint:
+	$cfg_flickr_api_endpoint = 'https://api.flickr.com/services';
+
+
 #	Debugging options:
 	$cfg_disable_caching = false;
 	$cfg_disable_conditional_get = false;
